@@ -1,27 +1,27 @@
 {
-    "name": "ʙᴀɴ ᴀʟʟ",
-    "description": "sɪᴍᴘʟᴇ ʙᴏᴛ ᴛᴏ ʙᴀɴ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴛʜᴇ ᴡʜᴏʟᴇ ᴄʜᴀᴛs",
+    "name": "BanAllRbot",
+    "description": "BaNall bot powerfull onw @ToPTeTo",
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
     "keywords": ["ᴋɪsᴀɴ-ʀᴀᴠɪ", "ʙᴀɴ-ᴀʟʟ"],
     "repository": "https://github.com/DevTeto/BanALlRbot",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
-            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
+            "description": "ضع هنا توكن بوتك 🕹️",
             "required": true
         },
         "OWNER": {
-            "description": "ᴛʏᴘᴇ ʏᴏᴜʀ ᴜsᴇʀɴᴀᴍᴇ ᴡɪᴛʜᴏᴜᴛ @ ʟɪᴋᴇ ʙɪᴋᴀsʜʜᴀʟᴅᴇʀ",
+            "description": "ضع معرف حسابك بدون @ مثال @ToPTeTo",
             "required": true,
             "value": ""
         },
         "API_HASH": {
-            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "description": "ضع هنا الايبي هاش",
             "required": true,
             "value": ""
         },
         "API_ID": {
-            "description": "ғɪʟʟ ᴀᴘɪ ɪᴅ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "description": "ضع هنا الايبي ايدي",
             "required": true,
             "value": ""
         }
