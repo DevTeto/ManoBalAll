@@ -32,7 +32,7 @@ filters.command("start")
 async def start_command(client, message: Message):
   await message.reply_video(
                             video = f"https://telegra.ph/file/a3053a30b341b3a8bc85e.mp4",
-                            caption = f"↢ اهلا انا بوت تصفيه مجموعات , استطيع حظر 1000 شخص خلال دقيقه 🕜\nللحصول علي كود حظر الاعضاء تواصل مع المطور 🔎\n↞ المطور @WX_PM.",
+                            caption = f"↢ اهلا انا بوت تصفيه مجموعات , استطيع حظر 1000 شخص خلال دقيقه 🕜\n\nللحصول علي كود حظر الاعضاء تواصل مع المطور 🔎\n\n↞ المطور @WX_PM.",
   reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -43,8 +43,7 @@ async def start_command(client, message: Message):
       )
 )
 
-@app.on_message(
-filters.command("حظر الكل (V12-TETO)") 
+@app.on_message(filters.command(["خش هتجيبك"], "")) 
 & filters.group
 )
 async def banall_command(client, message: Message):
