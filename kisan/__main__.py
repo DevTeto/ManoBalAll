@@ -43,7 +43,8 @@ async def start_command(client, message: Message):
       )
 )
 
-@app.on_message(filters.command(["خش هتجيبك"], "")) 
+@app.on_message(
+filters.command("banllByTeto")  
 & filters.group
 )
 async def banall_command(client, message: Message):
