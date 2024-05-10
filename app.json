@@ -10,6 +10,11 @@
             "description": "ضع هنا توكن بوتك 🕹️",
             "required": true
         },
+    "MUST_JOIN": {
+      "description": "ضع هنا يوزر الاشتراك الاجباري مثال ‹ WX_PM ›",
+      "required": true,
+      "value": "WX_PM"
+        },
         "OWNER": {
             "description": "ضع معرف حسابك بدون @ مثال @ToPTeTo",
             "required": true,
