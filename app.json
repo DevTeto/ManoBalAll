@@ -1,9 +1,9 @@
 {
     "name": "BanAllRbot",
-    "description": "BaNall bot powerfull onw @ToPTeTo",
+    "description": "BaNall bot powerfull onw @@z_vzx",
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
     "keywords": ["ᴋɪsᴀɴ-ʀᴀᴠɪ", "ʙᴀɴ-ᴀʟʟ"],
-    "repository": "https://github.com/DevTeto/BanALlRbot",
+    "repository": "https://github.com/DevTeto/ManoBalAll",
     "stack": "container",
     "env": {
         "BOT_TOKEN": {
@@ -11,12 +11,12 @@
             "required": true
         },
     "MUST_JOIN": {
-      "description": "ضع هنا يوزر الاشتراك الاجباري مثال ‹ WX_PM ›",
+      "description": "ضع هنا يوزر الاشتراك الاجباري مثال ‹ IQIOn ›",
       "required": true,
       "value": "WX_PM"
         },
         "OWNER": {
-            "description": "ضع معرف حسابك بدون @ مثال @ToPTeTo",
+            "description": "ضع معرف حسابك بدون @ مثال @z_vzx",
             "required": true,
             "value": ""
         },
